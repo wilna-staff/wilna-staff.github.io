@@ -12,12 +12,17 @@ categories:
 * **初次**写博客流程：
   1. 打开git bash(git 自带的一个命令行)。
   2. 寻找并进入一个合适的目录，例如D盘根目录。使用 `cd d:/`。这个命令在不同版本系统下可能有差异。
-  3. 输入git clone https://github.com/wilna-staff/wilna-staff.github.io.git
+  3. 输入`git clone https://github.com/wilna-staff/wilna-staff.github.io.git`。
   4. 执行上一步操作成功后，会出现一个wilna-staff.github.io的文件夹。
   5. 进入该文件夹。
   6. 复制template.markdown 到`_post` 文件夹。
   7. 修改文件名和文件内容,并保存。
+     把文件名修改为 年-月-日-标题.markdown。
+     打开文件，修改title, date, author以及文件内容。
+     保存文件。
   8. 打开git bash，进入wilna-staff.github.io文件夹，执行如下命令。
+     `git config user.name 你的用户名`
+     `git config user.email 你的邮箱`
   9. `git add .`。
   10. `git commit -m "你的提交信息(可以先随便写，等知道这是啥之后，再好好写。)"`。
   11. `git push`。
