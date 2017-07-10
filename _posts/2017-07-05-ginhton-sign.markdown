@@ -7,3 +7,4 @@ categories:
 ---
 
 * I'm ginhton. I signed for this blog.
+* [5 min talk](https://sway.com/8mNQapSePceNDlAJ)
