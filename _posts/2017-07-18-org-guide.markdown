@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "Org Guide"
+date:   2017-07-05
+author: noname
+categories: 
+---
+
+* First you should install emacs or other version of emacs.
+* Then copy the following content to a new file and save it as "org-guide.org". After that open it in your emacs.
+```org-mode
+* wilna org tutorial - press TAB to fold / unfold content
+** read before
+   - If you have time, the org mode [[http:orgmode.org/orgguide.pdf][mannual]] is recommended to read.
+   - This tutorial is just a basic introduction about emacs and org mode.
+   - You can start by open this file in your emacs.
+   - `C-f` means press `Ctrl` and `f` at the *same* time.
+   - `A-f` means `Alt` + `f`.
+** installation
+*** *basic* emacs with org-mode
+*** *special* spacemacs for Vim user
+*** *special* Aquamacs for Mac user
+*** search and download
+*** note: Special version of emacs has special keys. And Those keys are not listed in this tutorial.
+** file
+   - open file: `C-x C-f`
+   - save file: `C-x C-s`
+   - close and exit: `C-x C-c`
+   - save this file and open another to edit: `C-x C-s C-x C-f`
+** C-g : terminate wrong command input
+   - if you want to press `C-x C-f`, but press `C-c`. So you can press `C-g` to terminate this command. And then press full right command again.
+** move cursor
+   - Those command are used when you typing.
+   - up (previous line): `C-p`
+   - down (next line): `C-n`
+   - left (backward): `C-b`
+   - right (forward): `C-f`
+   - head (ahead): `C-a`
+   - end (end): `C-e`
+** org mode
+*** title
+    - `*` and a SPACE means 1-level title
+    - `**` and a SPACE means 2-level title
+    - 3-level title and 4-level title are something like the above.
+*** list
+    - ordered list: start with `1. 2. 3. ` or `a. b. c.` or something else.
+    a. wow, just like this.
+    b. crazy
+    - unordered list: usually start with `-`.
+    - when using list, you can use Tab to indent your list. (not recommend)
+    - [ ] list with checkbox. Press `C-c C-c` in this line will toggle its state.
+*** adjust
+    - move title / list up: `A-up`
+    - move title / list down: `A-down`
+    - level up title: `A-left`
+    - level down title: `A-right`
+*** time
+    - *IMPORTANT* edit emacs config file `.emacs.d`, add following lines:
+      `(setq org-agenda-files '(org-file-folder-path-string))
+       (global-set-key (kbd "C-c a") 'org-agenda)`
+    - todo: title + SPACE + TODO + content
+**** TODO this is an example
+    - toggle todo state: `C-c C-t`
+    - schedule: `C-c C-s`
+    - deadline: `C-c C-d`
+    - agenda: `C-c a a`
+  
+```

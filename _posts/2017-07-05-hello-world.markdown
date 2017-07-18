@@ -30,4 +30,4 @@ categories:
   13. 一两分钟后，可以访问[wilna-staff](https://wilna-staff.github.io)查看更新情况。
 * step 1-4 是为了下载远程的代码到本地。
 * step 5-13 则是博客的写作与发表流程。
-* 非初次写博客，需要先在目录下执行`git pull`命令，然后一次执行5-13。
+* 非初次写博客，需要先在目录下执行`git pull`命令，然后依次执行5-13。
