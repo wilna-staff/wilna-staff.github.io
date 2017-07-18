@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Hello World!"
+title:  "发布你的博文"
 date:   2017-07-05 14:07:54 +0800
 author: 赵鹏
 categories: 
 ---
 
-* Hello World!
+* 在此之前，你需要成为wilna-staff项目的协作者。具体操作参考其他博文。
 * 文件命名方式： 年-月-日-标题.markdown
 * 需要安装Git，Git Bash(Git安装时自带)。
 * **初次**写博客流程：
