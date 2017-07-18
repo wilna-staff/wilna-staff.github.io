@@ -1,14 +1,15 @@
 ---
 layout: post
 title:  "Org Guide"
-date:   2017-07-05
+date:   2017-07-18
 author: noname
 categories: 
 ---
 
 * First you should install emacs or other version of emacs.
 * Then copy the following content to a new file and save it as "org-guide.org". After that open it in your emacs.
-```org-mode
+
+```text
 * wilna org tutorial - press TAB to fold / unfold content
 ** read before
    - If you have time, the org mode [[http:orgmode.org/orgguide.pdf][mannual]] is recommended to read.
