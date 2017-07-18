@@ -56,7 +56,7 @@ categories:
     - level up title: `A-left`
     - level down title: `A-right`
 *** time
-    - *IMPORTANT* edit emacs config file `.emacs.d`, add following lines:
+    - *IMPORTANT* edit emacs config file `.emacs.d/init.el`, add following lines:
       `(setq org-agenda-files '(org-file-folder-path-string))
        (global-set-key (kbd "C-c a") 'org-agenda)`
     - todo: title + SPACE + TODO + content
